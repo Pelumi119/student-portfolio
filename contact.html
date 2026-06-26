@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Contact Me</title>
+    <style>
+        /* Core website styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333333;
+            padding: 30px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #002d62;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Box layout */
+        .contact-container {
+            max-width: 600px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        
+        /* Form fields */
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+        
+        /* Submit button */
+        button {
+            background-color: #002d62;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #001a3a;
+        }
+
+        /* Direct Info & Social Links Box */
+        .social-box {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #eeeeee;
+        }
+        .contact-details {
+            background-color: #f8fafc;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border-left: 4px solid #002d62;
+        }
+        .contact-details p {
+            margin: 5px 0;
+        }
+        .links-wrapper {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .social-link {
+            display: inline-block;
+            margin: 0 10px;
+            color: #002d62;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="projects.html">Projects</a> | 
+        <a href="planner.html">Academic Planner</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <p>Have a question or want to collaborate? Drop me a message below!</p>
+
+        <form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="Your Email Address" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Message</label>
+                <textarea rows="5" placeholder="Type your message here..." required></textarea>
+            </div>
+            
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-box">
+            <div class="contact-details">
+                <strong>📍 Direct Channels:</strong>
+                <p>📧 <strong>Email:</strong> a.faridah1261@miva.edu.ng</p>
+                <p>📞 <strong>Phone:</strong> +234 810 181 8878</p>
+            </div>
+
+            <div class="links-wrapper">
+                <p>Or connect with me on professional networks:</p>
+                <a href="https://wa.me/234 810 181 8878" target="_blank" class="social-link">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

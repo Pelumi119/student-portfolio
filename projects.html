@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My Projects</title>
+    <style>
+        /* Core website styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333333;
+            padding: 30px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #002d62;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Project Card Styling */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+        .project-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid #002d62;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e6f0fa;
+            color: #002d62;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Project Button Styling */
+        .project-btn {
+            display: inline-block;
+            background-color: #002d62;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .project-btn:hover {
+            background-color: #001a3a;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="projects.html">Projects</a> | 
+        <a href="planner.html">Academic Planner</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>My Projects</h1>
+    <p>Here are some of the practical applications and code bases I have developed:</p>
+
+    <div class="projects-grid">
+        
+        <div class="project-card">
+            <span class="tag">HTML & CSS</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive multi-page web application built to showcase my academic milestones, skills, and coding journey at Miva Open University.</p>
+            <a href="index.html" class="project-btn">View Live Site</a>
+        </div>
+
+        <div class="project-card">
+            <span class="tag">Logic & Planning</span>
+            <h3>Interactive Academic Planner</h3>
+            <p>A structured scheduling tool designed inside this ecosystem to manage university study blocks and map out weekly course targets efficiently.</p>
+            <a href="planner.html" class="project-btn">Open Planner</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

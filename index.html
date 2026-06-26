@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Home - My Portfolio</title>
+    <style>
+        /* Core website styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333333;
+            padding: 30px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #002d62;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Home Card Layout */
+        .home-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            margin-top: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 5px solid #002d62;
+        }
+        
+        h1 {
+            color: #002d62;
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #555555;
+            margin-bottom: 25px;
+        }
+
+        /* Grid for Skills and Certifications */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .info-card {
+            background-color: #f8fafc;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #002d62;
+        }
+        
+        .info-card h3 {
+            margin-top: 0;
+            color: #002d62;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .progress-tag {
+            font-size: 0.85em;
+            color: #b25e00;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="projects.html">Projects</a> | 
+        <a href="planner.html">Academic Planner</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="home-container">
+        <h1>Hi, I'm Abdul Rasaq Faridah Oluwapelumi</h1>
+        <p class="subtitle">Welcome to my official digital portfolio space.</p>
+        
+        <p>I am a passionate 100-level student at <strong>Miva Open University</strong>, focusing on building a rock-solid foundation in software engineering, computing structures, and interactive application design.</p>
+
+        <div class="info-grid">
+            
+            <div class="info-card">
+                <h3>Core Skills</h3>
+                <ul>
+                    <li>HTML5 & CSS3 Web Architecture</li>
+                    <li>Professional Communication</li>
+                    <li>Critical Problem Solving</li>
+                    <li>Logic Formulation</li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3>Professional Certifications</h3>
+                <ul>
+                    <li>Cisco Academy Certificate <span class="progress-tag">(In Progress)</span></li>
+                    <li>ISC² Candidate Path <span class="progress-tag">(In Progress)</span></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
