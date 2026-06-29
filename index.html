@@ -1,128 +1,93 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Home - My Portfolio</title>
+    <title>Home | Abdul Rasaq Faridah Oluwapelumi</title>
     <style>
-        /* Core website styles */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f9; 
             color: #333333;
-            padding: 30px;
+            margin: 0;
+            padding: 0;
             line-height: 1.6;
         }
-        nav {
-            background-color: #002d62;
-            padding: 15px;
-            border-radius: 5px;
+        nav { 
+            background-color: #002d62; 
+            padding: 15px 30px; 
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
+        nav a { 
+            color: #ffffff; 
+            text-decoration: none; 
+            font-weight: 600; 
+            margin: 0 15px; 
+            font-size: 0.95em;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        /* Hero Home Card Layout */
-        .home-container {
-            background-color: white;
+        .main-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #ffffff;
             padding: 40px;
-            border-radius: 8px;
-            margin-top: 25px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            border-top: 5px solid #002d62;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
         }
-        
-        h1 {
-            color: #002d62;
-            font-size: 2.2em;
-            margin-bottom: 5px;
+        .profile-img {
+            width: 160px; 
+            height: 160px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 4px solid #002d62; 
+            margin-bottom: 20px;
         }
-        
-        .subtitle {
-            font-size: 1.2em;
-            color: #555555;
-            margin-bottom: 25px;
-        }
-
-        /* Grid for Skills and Certifications */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
-        }
-        
-        .info-card {
-            background-color: #f8fafc;
-            padding: 20px;
-            border-radius: 6px;
-            border-left: 4px solid #002d62;
-        }
-        
-        .info-card h3 {
-            margin-top: 0;
-            color: #002d62;
-        }
-        
-        ul {
-            padding-left: 20px;
-            margin-bottom: 0;
-        }
-        
-        li {
-            margin-bottom: 8px;
-        }
-        
-        .progress-tag {
-            font-size: 0.85em;
-            color: #b25e00;
-            font-weight: bold;
-            font-style: italic;
+        h1 { color: #002d62; margin: 0 0 5px 0; }
+        .subtitle { font-size: 1.1em; color: #666666; margin-bottom: 25px; font-weight: 600; }
+        .bio-box {
+            text-align: left; 
+            background-color: #f8fafc; 
+            padding: 30px; 
+            border-radius: 8px; 
+            border-top: 4px solid #002d62;
         }
     </style>
 </head>
 <body>
 
     <nav>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About Me</a> | 
-        <a href="projects.html">Projects</a> | 
-        <a href="planner.html">Academic Planner</a> | 
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="planner.html">Academic Planner</a>
         <a href="contact.html">Contact</a>
     </nav>
 
-    <div class="home-container">
-        <h1>Hi, I'm Abdul Rasaq Faridah Oluwapelumi</h1>
-        <p class="subtitle">Welcome to my official digital portfolio space.</p>
-        
-        <p>I am a passionate 100-level student at <strong>Miva Open University</strong>, focusing on building a rock-solid foundation in software engineering, computing structures, and interactive application design.</p>
+    <div class="main-container">
+        <img src="my-pic.jpeg" alt="Abdul Rasaq Faridah" class="profile-img">
+        <h1>Abdul Rasaq Faridah Oluwapelumi</h1>
+        <div class="subtitle">Cybersecurity Student &bull; Miva Open University</div>
 
-        <div class="info-grid">
-            
-            <div class="info-card">
-                <h3>Core Skills</h3>
-                <ul>
-                    <li>HTML5 & CSS3 Web Architecture</li>
-                    <li>Professional Communication</li>
-                    <li>Critical Problem Solving</li>
-                    <li>Logic Formulation</li>
-                </ul>
-            </div>
-            
-            <div class="info-card">
-                <h3>Professional Certifications</h3>
-                <ul>
-                    <li>Cisco Academy Certificate <span class="progress-tag">(In Progress)</span></li>
-                    <li>ISC² Candidate Path <span class="progress-tag">(In Progress)</span></li>
-                </ul>
-            </div>
+        <hr style="border:0; height:1px; background-color:#e2e8f0; margin:30px 0;">
 
+        <h2>Welcome to My Academic Portfolio</h2>
+        <p style="color: #4a5568; max-width: 650px; margin: 0 auto 30px auto;">
+            Thank you for visiting. This digital ecosystem documents my ongoing academic journey, professional development tracking, and projects designed to safeguard digital infrastructures.
+        </p>
+
+        <div class="bio-box">
+            <h3 style="margin-top:0; color:#002d62;">Brief Biography</h3>
+            <p style="margin:0; color:#334155; text-align: justify;">
+                I am an aspiring cybersecurity professional focused on data privacy, system integrity, and defensive architecture. Currently executing my foundation principles at Miva Open University, I blend comprehensive theory with tactical, hands-on lab environments. My aim is to actively contribute to data asset protection, security posture maintenance, and front-line threat landscape evaluation within modern information systems.
+            </p>
         </div>
     </div>
+
+    <script>
+        window.onload = function() {
+            alert("Welcome to Abdul Rasaq Faridah Oluwapelumi's Portfolio Website!");
+        };
+    </script>
 
 </body>
 </html>
